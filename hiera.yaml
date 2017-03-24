@@ -1,0 +1,17 @@
+##########################################################################
+# This file is centrally managed, any manual changes will be OVERWRITTEN #
+##########################################################################
+
+:backends:
+  - yaml
+  - json
+:yaml:
+  :datadir:  /vagrant/hieradata/
+:hierarchy:
+  - nodes/%{::clientcert}
+  - nodes/%{::environment}/%{::clientcert}
+  - nodes/%{::tier}/%{::clientcert}
+  - environments/%{::tier}
+  - environments/%{::environment}
+  - common
+  - default
