@@ -1,5 +1,5 @@
 ## Synopsis
-Repository to 
+Repository to show hands on how puppet works as provisioner of a vagrant image creating a Jenkins artifact inside the vagrant virtual machine.
 
 ## Code Example
 
@@ -7,7 +7,7 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This project has been created to be a guide for people who want to be introduced in Devops procedures and philosophy
 
 ## Installation
 
